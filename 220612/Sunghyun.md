@@ -1,5 +1,5 @@
 ### 문제 정보
-[문제 링크] (https://programmers.co.kr/learn/courses/30/lessons/43238)
+[문제 링크](https://programmers.co.kr/learn/courses/30/lessons/43238)
 
 ### 푼 방법
 이분탐색
