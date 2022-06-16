@@ -1,5 +1,5 @@
 ### 문제 정보
-[문제 링크](https://programmers.co.kr/learn/courses/30/lessons/64064)
+[문제 링크](https://programmers.co.kr/learn/courses/30/lessons/64064){:target="_blank"}
 
 ### 접근법
 불량 사용자인지 판단할 때는 정규표현식을 사용해서 처리했다.\
