@@ -33,3 +33,5 @@ def solution(n, money):
     
     return dp[n]
 ```
+### 유사한 문제
+https://www.acmicpc.net/problem/2293
