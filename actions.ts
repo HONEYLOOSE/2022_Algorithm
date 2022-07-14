@@ -20,6 +20,7 @@ const getDir = (dir: string) => {
   const inputs = fs.readdirSync(dir);
   const files = inputs.filter((e: string) => fileReg.test(e));
   const directories = inputs
+    .filter((e: string) => e !== "node_modules")
     .map((e: string) => `${dir}/${e}`)
     .filter((e: string) => !fileReg.test(e));
   if (directories.length === 0) {
@@ -42,8 +43,6 @@ const getDir = (dir: string) => {
 };
 
 getDir(`${root}`);
-console.log(result);
-console.log(root);
 
 const readme: string = fs.readFileSync(`${root}/README_HEADER.md`).toString();
 const newReadme: string =
@@ -51,3 +50,5 @@ const newReadme: string =
 fs.writeFileSync(root + "/README.md", "\ufeff" + newReadme, {
   encoding: "utf8",
 });
+
+console.log("Complete!");
