@@ -40,3 +40,5 @@
 [PS_스타수열_성현.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220712/PS_스타수열_성현.md)
 
 [PS_가장 먼 노드_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220715/PS_가장%20먼%20노드_손민.md)
+
+[PS_단어 변환_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220715/PS_단어%20변환_손민.md)
