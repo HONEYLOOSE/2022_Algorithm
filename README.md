@@ -10,6 +10,11 @@
 
 푼 문제 코드 / 풀이법 / 새로 배운 내용 등 .md로 정리해서 깃에 커밋
 
+### Action Bot
+Action Bot 자동 업데이트하려면 YYMMDD로 폴더 만들어야 함.
+
+README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
+
 ## 스터디 로그
 ## 220612
 
