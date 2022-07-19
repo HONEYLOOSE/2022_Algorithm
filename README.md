@@ -76,3 +76,5 @@ README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 [LC_TWO_SUM_성현.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220719/LC_TWO_SUM_성현.md)
 
+[PS_단어퍼즐_이길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220719/PS_단어퍼즐_이길상.md)
+
