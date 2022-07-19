@@ -63,7 +63,7 @@ const newReadme: string =
   readme +
   dayResult.reduce((acc, v) => {
     const [day, mds] = v;
-    acc = acc + `## ${day}\n\n` + mds.join("\n\n") + "\n\n";
+    acc = acc + `### ${day}\n\n` + mds.join("\n\n") + "\n\n";
     return acc;
   }, "");
 
