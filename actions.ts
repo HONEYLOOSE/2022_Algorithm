@@ -2,10 +2,11 @@
 interface Markdown {
   title: string;
   dir: string;
+  day: string;
 }
 // lib
 import path from "path";
-import fs from "fs";
+import fs, { read } from "fs";
 // constant
 const GITHUB_ROOT_DIR =
   "https://github.com/HONEYLOOSE/2022_Algorithm/blob/main";
@@ -29,6 +30,7 @@ const getDir = (dir: string) => {
       .filter((e: string) => mdReg.test(e))
       .map((e: string) => {
         return {
+          day: dir.match(/[0-9]{6}/)?.[0] ?? "?",
           dir:
             dir.replace(root, GITHUB_ROOT_DIR) + "/" + e.replace(/\s/g, "%20"),
           title: e,
@@ -44,9 +46,27 @@ const getDir = (dir: string) => {
 
 getDir(`${root}`);
 
+const dayResult = Array.from(
+  result.reduce((acc: Map<string, string[]>, v: Markdown) => {
+    if (acc.has(v.day)) {
+      const temp = acc.get(v.day) ?? [];
+      acc.set(v.day, [...temp, `[${v.title}](${v.dir})`]);
+    } else {
+      acc.set(v.day, [`[${v.title}](${v.dir})`]);
+    }
+    return acc;
+  }, new Map<string, string[]>())
+);
+
 const readme: string = fs.readFileSync(`${root}/README_HEADER.md`).toString();
 const newReadme: string =
-  readme + result.map((e: Markdown) => `[${e.title}](${e.dir})`).join("\n\n");
+  readme +
+  dayResult.reduce((acc, v) => {
+    const [day, mds] = v;
+    acc = acc + `## ${day}\n\n` + mds.join("\n\n") + "\n\n";
+    return acc;
+  }, "");
+
 fs.writeFileSync(root + "/README.md", "\ufeff" + newReadme, {
   encoding: "utf8",
 });
