@@ -16,7 +16,7 @@ Action Bot 자동 업데이트하려면 YYMMDD로 폴더 만들어야 함.
 README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 ## 스터디 로그
-## 220612
+### 220612
 
 [BOJ_할로윈묘지_길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220612/BOJ_할로윈묘지_길상.md)
 
@@ -24,7 +24,7 @@ README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 [PS_입국심사_성현.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220612/PS_입국심사_성현.md)
 
-## 220614
+### 220614
 
 [BOJ_퍼즐자르기_이길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220614/BOJ_퍼즐자르기_이길상.md)
 
@@ -32,27 +32,27 @@ README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 [PS_호텔방배정_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220614/PS_호텔방배정_손민.md)
 
-## 220617
+### 220617
 
 [PS_불량사용자_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220617/PS_불량사용자_손민.md)
 
-## 220624
+### 220624
 
 [PS_거스름돈_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220624/PS_거스름돈_손민.md)
 
-## 220630
+### 220630
 
 [PS_카드 짝 맞추기_이길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220630/PS_카드%20짝%20맞추기_이길상.md)
 
-## 220705
+### 220705
 
 [PS_스타수열_이길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220705/PS_스타수열_이길상.md)
 
-## 220708
+### 220708
 
 [PS_불량사용자_이길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220708/PS_불량사용자_이길상.md)
 
-## 220712
+### 220712
 
 [PS_2048_이길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220712/PS_2048_이길상.md)
 
@@ -60,13 +60,13 @@ README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 [PS_스타수열_성현.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220712/PS_스타수열_성현.md)
 
-## 220715
+### 220715
 
 [PS_가장 먼 노드_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220715/PS_가장%20먼%20노드_손민.md)
 
 [PS_단어 변환_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220715/PS_단어%20변환_손민.md)
 
-## 220719
+### 220719
 
 [LC_Buying_Selling_Stock_성현.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220719/LC_Buying_Selling_Stock_성현.md)
 
