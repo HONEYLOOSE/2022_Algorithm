@@ -1,9 +1,11 @@
 ### 문제 정보
-[문제 링크](https://www.acmicpc.net/problem/12100)
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12983)
 
 ### 접근법
+트라이 + DP
 
 ### 시간복잡도
+
 
 ### 공간복잡도
 
@@ -15,8 +17,10 @@
 ### 코드
 ```python
 def solution(strs, t):
+    # 트라이
     trie = {}
     
+    # 트라이 초기화
     for s in strs:
         node = trie
         for ch in s:
@@ -28,7 +32,8 @@ def solution(strs, t):
     
     L = len(t)
     
-    way = [30000 for i in range(L+1)] #dp 배열 
+    #dp 배열
+    way = [30000 for i in range(L+1)]
     # way[i]: 0위치부터 i 위치까지 way[i] 개의 단어 조각으로 도달 가능.
     way[0] = 0
     
