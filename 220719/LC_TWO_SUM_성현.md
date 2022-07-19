@@ -1,4 +1,5 @@
 # 문제 정보
+리트코드 EASY
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 # 접근법
