@@ -82,3 +82,7 @@ README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 [PS_등굣길_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220722/PS_등굣길_손민.md)
 
+### 220802
+
+[PS_사칙연산_이길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220802/PS_사칙연산_이길상.md)
+
