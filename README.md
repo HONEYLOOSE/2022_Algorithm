@@ -94,3 +94,7 @@ README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 [PS_코딩 테스트 공부_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220903/PS_코딩%20테스트%20공부_손민.md)
 
+### 220905
+
+[PS_등산코스 정하기_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220905/PS_등산코스%20정하기_손민.md)
+
