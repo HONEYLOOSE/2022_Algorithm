@@ -16,6 +16,10 @@ Action Bot 자동 업데이트하려면 YYMMDD로 폴더 만들어야 함.
 README.md를 수정하려면 `./README_HEADER.md` 를 수정하면 됨.
 
 ## 스터디 로그
+### 202209
+
+[PS_무지의 먹방 라이브_손민.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/20220915/PS_무지의%20먹방%20라이브_손민.md)
+
 ### 220612
 
 [BOJ_할로윈묘지_길상.md](https://github.com/HONEYLOOSE/2022_Algorithm/blob/main/220612/BOJ_할로윈묘지_길상.md)
